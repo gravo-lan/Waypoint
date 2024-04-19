@@ -1,0 +1,192 @@
+.root {
+  position: relative;
+  width: 430px;
+  height: 932px;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow: hidden;
+}
+.rectangle1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 430px;
+  height: 932px;
+  background-color: #bdd7d6;
+}
+.wayPoint {
+  color: #000;
+  font-size: 40px;
+  font-family: Inknut Antiqua, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 108px;
+  top: 253px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.screenshot2024419At11231 {
+  position: absolute;
+  left: 59px;
+  top: 630px;
+  width: 250px;
+  height: 73px;
+  background-image:/* webpackIgnore: true */ url('assets/screenshot2024419At11231.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle2 {
+  position: absolute;
+  left: 87px;
+  top: 398px;
+  width: 255px;
+  height: 73px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.mySchedule {
+  color: #f0f2dd;
+  font-size: 40px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 92px;
+  top: 410px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle3 {
+  position: absolute;
+  left: 87px;
+  top: 553px;
+  width: 255px;
+  height: 73px;
+  overflow: visible;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+.themes {
+  color: #f0f2dd;
+  font-size: 40px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 138px;
+  top: 565px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle4 {
+  position: absolute;
+  left: 87px;
+  top: 475px;
+  width: 255px;
+  height: 73px;
+  overflow: visible;
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+}
+.leaderboard {
+  color: #f0f2dd;
+  font-size: 40px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 93px;
+  top: 487px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.week33 {
+  color: #000;
+  font-size: 20px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 173px;
+  top: 69px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle48 {
+  position: absolute;
+  left: 134px;
+  top: 109px;
+  width: 161px;
+  height: 85px;
+  border-radius: 30px;
+  background-color: #516465;
+}
+._82 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 800;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 181px;
+  top: 121px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._822 {
+  color: #000;
+  font-size: 35px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 309px;
+  top: 130px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._10 {
+  color: #000;
+  font-size: 35px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 57px;
+  top: 130px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
