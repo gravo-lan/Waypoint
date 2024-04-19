@@ -1,0 +1,36 @@
+.root {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 41px;
+  height: 30px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.rectangle2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 80%;
+  border-radius: 0 3px 3px 0;
+  background-color: #516465;
+}
+.rectangle3 {
+  position: absolute;
+  left: 0;
+  right: 65.8537%;
+  top: 40%;
+  bottom: 40%;
+  border-radius: 0 3px 3px 0;
+  background-color: #516465;
+}
+.rectangle4 {
+  position: absolute;
+  left: 0;
+  right: 36.5854%;
+  top: 80%;
+  bottom: 0;
+  border-radius: 0 3px 3px 0;
+  background-color: #516465;
+}

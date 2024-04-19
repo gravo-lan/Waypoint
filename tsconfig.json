@@ -22,5 +22,5 @@
   },
   "include": [
     "../waypoint/src"
-  ]
+, "src/components/Leaderboard"  ]
 }
