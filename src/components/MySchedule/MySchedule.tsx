@@ -2,7 +2,7 @@ import { memo } from 'react';
 import type { FC } from 'react';
 
 import resets from '../_resets.module.css';
-import { ButtonMenu } from './ButtonMenu/ButtonMenu';
+import { ButtonMenu } from '../ButtonMenu/ButtonMenu';
 import { FlameSvgrepoCom1Icon } from './FlameSvgrepoCom1Icon';
 import { Ic_settings_48px1Icon } from './Ic_settings_48px1Icon';
 import { IconmonstrCheckMark11Icon } from './IconmonstrCheckMark11Icon';
