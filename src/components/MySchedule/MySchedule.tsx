@@ -1,6 +1,4 @@
-import { memo } from 'react';
-import type { FC } from 'react';
-
+import React from 'react';
 import resets from '../_resets.module.css';
 import { ButtonMenu } from '../ButtonMenu/ButtonMenu';
 import { FlameSvgrepoCom1Icon } from './FlameSvgrepoCom1Icon';
@@ -12,12 +10,11 @@ import { IconmonstrCheckMark14Icon } from './IconmonstrCheckMark14Icon';
 import classes from './MySchedule.module.css';
 import { Rectangle44Icon } from './Rectangle44Icon';
 import { Rectangle45Icon } from './Rectangle45Icon';
+import { SideMenu } from '../SideMenu/SideMenu';
 
-interface Props {
-  className?: string;
-}
-/* @figmaId 1:6 */
-export const MySchedule: FC<Props> = memo(function MySchedule(props = {}) {
+function MySchedule( {navigation} : {navigation:any} ) {
+  const [isOverlayOpen, setIsOverlayOpen] = React.useState(false)
+
   return (
     <div className={`${resets.clapyResets} ${classes.root}`}>
       <div className={classes.mySchedule}>My Schedule:</div>
@@ -25,7 +22,7 @@ export const MySchedule: FC<Props> = memo(function MySchedule(props = {}) {
       <div className={classes.rectangle13}></div>
       <div className={classes.rectangle12}></div>
       <div className={classes.weeklyTotal}>Weekly Total:</div>
-      <ButtonMenu />
+      <div onClick={() => setIsOverlayOpen(!isOverlayOpen)}><ButtonMenu /></div>
       <div className={classes.ic_settings_48px1}>
         <Ic_settings_48px1Icon className={classes.icon} />
       </div>
@@ -112,6 +109,9 @@ export const MySchedule: FC<Props> = memo(function MySchedule(props = {}) {
         <FlameSvgrepoCom1Icon className={classes.icon8} />
       </div>
       <div className={classes._99}>9/9</div>
+      <SideMenu isOpen={isOverlayOpen} onClose={() => setIsOverlayOpen(!isOverlayOpen)} navigation={navigation}/>
     </div>
   );
-});
+};
+
+export default MySchedule;

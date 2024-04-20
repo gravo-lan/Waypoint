@@ -1,0 +1,130 @@
+.buttonMenu.buttonMenu {
+  left: 302px;
+  top: 15px;
+}
+.root {
+  position: relative;
+  width: 354px;
+  height: 932px;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #516465;
+  overflow: hidden;
+}
+.rectangle23 {
+  position: absolute;
+  right: -1px;
+  top: 0;
+  width: 64px;
+  height: 932px;
+  background-color: #d9d9d9;
+}
+.mySchedule {
+  color: #f0f2dd;
+  font-size: 30px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 22px;
+  top: 129px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.leaderboard {
+  color: #f0f2dd;
+  font-size: 30px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 22px;
+  top: 242px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.shop {
+  color: #f0f2dd;
+  font-size: 30px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 22px;
+  top: 355px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.restrictions {
+  color: #f0f2dd;
+  font-size: 30px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 22px;
+  top: 468px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.frame14 {
+  position: absolute;
+  left: 28px;
+  bottom: 43px;
+  width: 146px;
+  height: 83px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.adamPei {
+  color: #fff;
+  font-size: 20px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: -5px;
+  top: 86px;
+  width: 195px;
+  height: 32px;
+  flex-direction: column;
+}
+.ellipse12 {
+  position: absolute;
+  left: 2px;
+  top: 7px;
+  width: 67px;
+  height: 67px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.group {
+  position: absolute;
+  left: 297px;
+  top: 63px;
+  width: 52.3213px;
+  height: 48.7205px;
+  overflow: visible;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+.addFriendSvgrepoCom1 {
+  position: absolute;
+  left: 297px;
+  top: 121px;
+  width: 52px;
+  height: 52px;
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+}

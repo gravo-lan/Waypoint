@@ -1,21 +1,19 @@
-import { memo } from 'react';
-import type { FC } from 'react';
-
+import React from 'react';
 import resets from '../_resets.module.css';
-import { ButtonMenu } from './ButtonMenu/ButtonMenu';
+import { ButtonMenu } from '../ButtonMenu/ButtonMenu';
 import { Ellipse13Icon } from './Ellipse13Icon';
+import { SideMenu } from '../SideMenu/SideMenu';
 import classes from './Leaderboard.module.css';
 
-interface Props {
-  className?: string;
-}
-/* @figmaId 2:2 */
-export const Leaderboard: FC<Props> = memo(function Leaderboard(props = {}) {
+function Leaderboard( {navigation} : {navigation:any} ) {
+  const [isOverlayOpen, setIsOverlayOpen] = React.useState(false)
+
   return (
     <div className={`${resets.clapyResets} ${classes.root}`}>
-      <div className={classes.ellipse13}>
+      <div className={classes.ellipse13} onClick={() => navigation.navigate('Add a Friend')} >
         <Ellipse13Icon className={classes.icon} />
       </div>
+      <div onClick={() => setIsOverlayOpen(!isOverlayOpen)}><ButtonMenu /></div>
       <div className={classes.rectangle18}></div>
       <div className={classes.rectangle12}></div>
       <div className={classes.rectangle14}></div>
@@ -35,9 +33,11 @@ export const Leaderboard: FC<Props> = memo(function Leaderboard(props = {}) {
       <div className={classes._268}>26.8%</div>
       <div className={classes._98}>9.8%</div>
       <div className={classes.myFriends}>My Friends:</div>
-      <div className={classes.unnamed}>+</div>
-      <ButtonMenu />
+      <div className={classes.unnamed} onClick={() => navigation.navigate('Add a Friend') }>+</div>
       <div className={classes.week33}>Week 33</div>
+      <SideMenu isOpen={isOverlayOpen} onClose={() => setIsOverlayOpen(!isOverlayOpen)} navigation={navigation}/>
     </div>
   );
-});
+};
+
+export default Leaderboard;

@@ -3,6 +3,7 @@ import classes from './Home.module.css';
 import { Rectangle2Icon } from './Rectangle2Icon';
 import { Rectangle3Icon } from './Rectangle3Icon';
 import { Rectangle4Icon } from './Rectangle4Icon';
+import { Rectangle49Icon } from './Rectangle49Icon';
 
 function Home({ navigation } : {navigation:any}) {
   return (
@@ -13,26 +14,25 @@ function Home({ navigation } : {navigation:any}) {
       <div className={classes.rectangle2}>
         <Rectangle2Icon className={classes.icon} />
       </div>
-      <div className={classes.mySchedule}><button 
-        onClick = {() => navigation.navigate('My Schedule')} 
-        style = {{color:'#f0f2dd',fontSize:'40px',
-        fontFamily:`Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-        'Liberation Sans', sans-serif`}}
-        >My Schedule</button></div>
+      <div className={classes.mySchedule} onClick = {() => navigation.navigate('My Schedule')}>
+        My Schedule
+      </div>
       <div className={classes.rectangle3}>
         <Rectangle3Icon className={classes.icon2} />
       </div>
-      <div className={classes.themes}>Themes</div>
+      <div className={classes.shop} onClick = {() => navigation.navigate('Shop')}>
+        Shop
+      </div>
+      <div className={classes.rectangle49}>
+        <Rectangle49Icon className={classes.icon3} />
+      </div>
+      <div className={classes.shop}>Shop</div>
+      <div className={classes.restrictions}>Restrictions</div>
       <div className={classes.rectangle4}>
         <Rectangle4Icon className={classes.icon3} />
       </div>
-      <div className={classes.leaderboard}>
-        <button 
-        onClick = {() => navigation.navigate('Leaderboard')} 
-        style = {{color:'#f0f2dd',fontSize:'40px',
-        fontFamily:`Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-        'Liberation Sans', sans-serif`}}
-        >Leaderboard</button>
+      <div className={classes.leaderboard} onClick = {() => navigation.navigate('Leaderboard')}>
+        Leaderboard
       </div>
       <div className={classes.week33}>Week 33</div>
       <div className={classes.rectangle48}></div>
