@@ -28,7 +28,7 @@ export function SideMenu({isOpen, onClose, navigation} : {isOpen:any, onClose:an
             <div className={classes.addFriendSvgrepoCom1}>
               <AddFriendSvgrepoCom1Icon className={classes.icon3} />
             </div>
-            <div onClick={onClose}><ButtonMenu /></div>
+            <div onClick={onClose} style={{left:'50%'}}><ButtonMenu /></div>
           </div>
         ) : null
       }

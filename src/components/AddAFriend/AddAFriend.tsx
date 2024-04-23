@@ -6,7 +6,8 @@ import { SideMenu } from '../SideMenu/SideMenu';
 import React from 'react';
 
 function AddAFriend({navigation} : {navigation:any}) {
-  const [isOverlayOpen, setIsOverlayOpen] = React.useState(false)
+  var [isOverlayOpen, setIsOverlayOpen] = React.useState(false)
+  isOverlayOpen = false
 
   return (
     <div className={`${resets.clapyResets} ${classes.root}`}>

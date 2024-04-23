@@ -6,7 +6,7 @@ import { SideMenu } from '../SideMenu/SideMenu';
 import classes from './Leaderboard.module.css';
 
 function Leaderboard( {navigation} : {navigation:any} ) {
-  const [isOverlayOpen, setIsOverlayOpen] = React.useState(false)
+  var [isOverlayOpen, setIsOverlayOpen] = React.useState(false)
 
   return (
     <div className={`${resets.clapyResets} ${classes.root}`}>
